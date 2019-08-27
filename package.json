@@ -1,0 +1,37 @@
+{
+  "name": "first_expressjs",
+  "version": "0.0.3",
+  "description": "This is Chapter 3 in MEAN web development book ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MEAN"
+  ],
+  "author": "Mike",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.8.0",
+    "compression": "~1.0.11",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.0.0",
+    "cookie-parser": "~1.3.3",
+    "ejs": "~1.0.0",
+    "express": "~4.17.1",
+    "express-session": "~1.7.6",
+    "method-override": "~2.2.0",
+    "mongoose": "^5.6.9",
+    "morgan": "~1.3.0",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "~1.1.0"
+  },
+  "devDependencies": {
+    "should": "~4.0.4",
+    "supertest": "~0.13.0",
+    "karma": "^4.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
